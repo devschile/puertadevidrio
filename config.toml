@@ -1,0 +1,15 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'La Puerta de Vidrio - Devschile'
+theme = 'hugo-theme-mini'
+defaultContentLanguage = 'es'
+
+[social]
+  github = 'https://github.com/devschile/'
+  twitter = 'https://twitter.com/devschile/'
+
+[params]
+  author = 'Jorge Epuñan mejor admin'
+  bio = 'un clon de Glassdoor humilde pero honesto'
+  description = 'Clon de Glassdoor para Chile'
+  showPowerBy = false
