@@ -4,7 +4,6 @@
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 
     {{ partial "head.html" . }}
-
   </head>
 
   <body>
@@ -13,7 +12,20 @@
     <main class="main">
       {{ block "main" . }}{{ end }}
     </main>
-    
+
+    <center>
+    <iframe
+      src="https://tally.so/embed/w44o7d?alignLeft=1&hideTitle=1"
+      width="90%"
+      height="1200"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      title="Puerta de Vidrio DevsChile"
+      style="padding: 1rem; background: rgb(230, 242, 255); box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;"
+    />
+    </center>
+
     {{ partial "footer.html" . }}
   </body>
 </html>
